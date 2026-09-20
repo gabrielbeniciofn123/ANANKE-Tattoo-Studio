@@ -18,6 +18,10 @@ Edite **`content.js`**. Esse arquivo concentra os artistas, a galeria, as avalia
 
 ### Artistas
 
+A foto coletiva real da equipe aparece na seção de artistas e está em **`assets/equipe.png`**. Para substituí-la, atualize esse arquivo. Ela é exibida inteira, sem recorte adicional.
+
+Se quiser acrescentar perfis individuais:
+
 1. Coloque as fotos na pasta `assets/` (ex.: `assets/gabriel.jpg`).
 2. Substitua cada artista no campo `artists`:
 
@@ -30,7 +34,7 @@ Edite **`content.js`**. Esse arquivo concentra os artistas, a galeria, as avalia
 }
 ```
 
-Os cartões se atualizam automaticamente. Enquanto não houver fotos, o site exibe uma apresentação neutra com “Em breve”.
+Os cartões individuais aparecem automaticamente quando você adiciona itens à lista `artists`. A foto coletiva continua em destaque.
 
 ### Portfólio
 
@@ -86,3 +90,9 @@ Fotografias de banco de imagens disponíveis no Pexels:
 - [Foto 10681099](https://www.pexels.com/photo/man-tattooing-arm-10681099/)
 
 Tipografia: Cormorant Garamond e Manrope via Google Fonts, com alternativas locais. O mapa depende do Google Maps. Links de WhatsApp e Instagram usam serviços externos.
+
+## Cuidados e WhatsApp
+
+O botão flutuante usa a marca WhatsApp em branco sobre verde e abre a conversa com **(31) 99723-1459**. Ícone obtido do projeto [Simple Icons](https://github.com/simple-icons/simple-icons/blob/develop/icons/whatsapp.svg).
+
+A seção `#cuidados` reúne um guia de oito etapas, com fontes médicas vinculadas no próprio site, orientações por tipo de curativo e sinais para procurar atendimento. É conteúdo informativo geral; instruções individuais devem ser alinhadas ao artista e ao profissional de saúde.

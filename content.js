@@ -5,11 +5,8 @@
 window.ANANKE_CONTENT = {
   whatsapp: '5531997231459',
   galleryIsReference: true,
-  artists: [
-    { name: 'Artista residente', specialty: 'Uma assinatura para descobrir', photo: '', instagram: '' },
-    { name: 'Artista residente', specialty: 'Um olhar para conhecer', photo: '', instagram: '' },
-    { name: 'Artista residente', specialty: 'Uma história para criar', photo: '', instagram: '' }
-  ],
+  // A foto coletiva está em assets/equipe.png. Adicione perfis individuais aqui quando desejar.
+  artists: [],
   reviews: [],
   gallery: [
     { image: 'assets/tattoo-1.jpg', title: 'Contraste & presença', category: 'blackwork', label: 'Blackwork', alt: 'Referência de tatuagem com contraste em tinta preta' },

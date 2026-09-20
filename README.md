@@ -96,3 +96,41 @@ Tipografia: Cormorant Garamond e Manrope via Google Fonts, com alternativas loca
 O botão flutuante usa a marca WhatsApp em branco sobre verde e abre a conversa com **(31) 99723-1459**. Ícone obtido do projeto [Simple Icons](https://github.com/simple-icons/simple-icons/blob/develop/icons/whatsapp.svg).
 
 A seção `#cuidados` reúne um guia de oito etapas, com fontes médicas vinculadas no próprio site, orientações por tipo de curativo e sinais para procurar atendimento. É conteúdo informativo geral; instruções individuais devem ser alinhadas ao artista e ao profissional de saúde.
+
+## Página de integrantes
+
+O botão **Conheça nossa equipe** abre `equipe.html`, com perfis individuais e botões verdes de WhatsApp. Clique na foto ou em **Conhecer o artista** para abrir a apresentação completa. O perfil pode ser fechado pelo botão, pela tecla Escape ou por um clique fora da janela.
+
+Preencha a lista `artists` em `content.js` com dados reais:
+
+```js
+{
+  name: 'Nome do integrante',
+  specialty: 'Especialidade confirmada',
+  bio: 'Apresentação aprovada pelo integrante.',
+  photo: 'assets/nome-do-integrante.jpg',
+  whatsapp: '55DDNUMERO',
+  instagram: 'https://www.instagram.com/usuario/'
+}
+```
+
+O WhatsApp individual é opcional: sem um número brasileiro válido, o botão abre o WhatsApp do estúdio com uma mensagem pedindo atendimento com o integrante pelo nome. O destino fica identificado abaixo do botão. Fotos ausentes usam iniciais, sem substituir a pessoa por uma imagem fictícia.
+
+Arquivos da página: `equipe.html`, `equipe.css` e `equipe.js`.
+
+### Oito perfis de referência
+
+Os oito perfis iniciais usam fotos ilustrativas, sem afirmar vínculo dessas pessoas com o estúdio. O aviso aparece na página, nos cartões e na apresentação ampliada. A foto coletiva em `assets/equipe.png` é a foto real enviada pelo responsável.
+
+Para converter cada perfil em um integrante real, atualize os campos em `content.js` e defina **`isPlaceholder: false`**. Enquanto `isPlaceholder` for verdadeiro, o contato vai para o estúdio com uma mensagem genérica, sem solicitar uma pessoa fictícia. Perfis ilustrativos não são repetidos na página inicial.
+
+Fotos ilustrativas (Pexels), na ordem dos perfis:
+
+1. https://www.pexels.com/photo/7005741/
+2. https://www.pexels.com/photo/7005724/
+3. https://www.pexels.com/photo/6593562/
+4. https://www.pexels.com/photo/7147770/
+5. https://www.pexels.com/photo/20267333/
+6. https://www.pexels.com/photo/18430399/
+7. https://www.pexels.com/photo/34920726/
+8. https://www.pexels.com/photo/31554212/

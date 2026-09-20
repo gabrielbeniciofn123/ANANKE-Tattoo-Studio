@@ -58,13 +58,13 @@ O endereço informado é **Av. Portugal, Santa Amélia, Belo Horizonte/MG**. Adi
 
 O monograma “A” é uma aplicação tipográfica provisória. Substitua pela marca original quando o arquivo do logotipo estiver disponível.
 
-## Publicar com GitHub Pages
-
-No repositório, abra **Settings → Pages → Deploy from a branch**, selecione **main** e **/ (root)** e salve. Quando a publicação concluir, o endereço esperado será:
+## Site publicado com GitHub Pages
 
 https://gabrielbeniciofn123.github.io/ANANKE-Tattoo-Studio/
 
-O endereço só funciona depois de ativar o Pages e concluir a publicação.
+O GitHub Pages está configurado para publicar a branch **main** a partir de **/ (root)**. Novos commits nessa branch atualizam o site automaticamente após a conclusão da publicação.
+
+Para acompanhar, abra a aba **Actions** ou **Settings → Pages** no repositório.
 
 ## Arquivos
 
